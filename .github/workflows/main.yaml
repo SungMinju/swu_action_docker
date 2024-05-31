@@ -15,7 +15,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: 계정명/node-ci
+          images: SUNGMINJU/node-ci
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
